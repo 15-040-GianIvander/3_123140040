@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-xhdpi_profile_round.webp.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-xhdpi/profile_round.webp"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-xhdpi_profile_foreground.webp.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-xhdpi/profile_foreground.webp"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-xxxhdpi_profile_foreground.webp.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-xxxhdpi/profile_foreground.webp"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/xml_backup_rules.xml.flat",
+        "source": "com.example.myprofileapp-main-35:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-anydpi-v26_profile.xml.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-anydpi-v26/profile.xml"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-mdpi_profile.webp.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-mdpi/profile.webp"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-xxxhdpi_profile_round.webp.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-xxxhdpi/profile_round.webp"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-xxxhdpi_profile.webp.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-xxxhdpi/profile.webp"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.myprofileapp-main-35:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-mdpi_profile_round.webp.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-mdpi/profile_round.webp"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.myprofileapp-main-35:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-hdpi_profile.webp.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-hdpi/profile.webp"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.myprofileapp-main-35:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-xhdpi_profile.webp.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-xhdpi/profile.webp"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-hdpi_profile_round.webp.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-hdpi/profile_round.webp"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-mdpi_profile_foreground.webp.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-mdpi/profile_foreground.webp"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-xxhdpi_profile_round.webp.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-xxhdpi/profile_round.webp"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-hdpi_profile_foreground.webp.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-hdpi/profile_foreground.webp"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/drawable_profile.png.flat",
+        "source": "com.example.myprofileapp-main-35:/drawable/profile.png"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-xxhdpi_profile.webp.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-xxhdpi/profile.webp"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-xxhdpi_profile_foreground.webp.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-xxhdpi/profile_foreground.webp"
+    },
+    {
+        "merged": "com.example.myprofileapp-debug-33:/mipmap-anydpi-v26_profile_round.xml.flat",
+        "source": "com.example.myprofileapp-main-35:/mipmap-anydpi-v26/profile_round.xml"
+    }
+]
