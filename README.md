@@ -1,32 +1,44 @@
-# My Profile App
+# My Profile App - Tugas 3 PAM
 
-Sebuah aplikasi Android modern yang dibangun menggunakan **Jetpack Compose** untuk menampilkan profil pribadi dengan sentuhan animasi yang interaktif.
+Aplikasi profil mahasiswa yang dibangun menggunakan framework **Compose Multiplatform**. Project ini mendemonstrasikan implementasi dasar UI deklaratif, tata letak (layout), dan komponen UI modern sesuai materi pertemuan ke-3.
 
-## Fitur Utama
-- **Animasi Entrance**: Menggunakan `AnimatedVisibility` dengan kombinasi `fadeIn` dan `slideInVertically` saat aplikasi pertama kali dibuka untuk memberikan kesan yang *smooth* dan premium.
-- **Header Profil**: Menampilkan foto profil melingkar dengan border kustom dan efek bayangan yang elegan.
-- **Bio Singkat**: Penjelasan mengenai latar belakang akademik dan minat teknologi.
-- **Kartu Informasi Kontak**: Detail kontak (Email, Telepon, Lokasi) yang dibungkus dalam `Material3 Card` dengan penggunaan ikon yang informatif.
-- **UI/UX Modern**: Desain bersih dengan latar belakang kontras dan layout yang responsif menggunakan Material Design 3.
+## Identitas Mahasiswa
+* **Nama:** Gian Ivander
+* **NIM:** 123140040
+* **Program Studi:** Teknik Informatika
+* **Instansi:** Institut Teknologi Sumatera
 
-## Teknologi yang Digunakan
-- **Bahasa Pemrograman**: [Kotlin](https://kotlinlang.org/)
-- **UI Framework**: [Jetpack Compose](https://developer.android.com/jetpack/compose)
-- **Animasi**: Compose Animation (`AnimatedVisibility`, `tween`, `slideInVertically`).
-- **Design System**: Material Design 3 (M3).
-- **Icons**: Material Icons Default.
+## Deskripsi Project
+Project ini bertujuan untuk membangun antarmuka pengguna (UI) yang konsisten di berbagai platform (Android/Desktop) menggunakan **Kotlin Multiplatform**. Fokus utama tugas ini adalah penerapan paradigma deklaratif, di mana UI dideskripsikan sebagai fungsi yang merespons state.
 
-## Tampilan Aplikasi
-![Tampilan Aplikasi](screenshots/TampilanApp.jpg)
+## Implementasi Teknis (Berdasarkan Materi 3)
 
-**Detail Profil:**
-- **Nama**: Nahli Saud Ramdani
-- **Institusi**: Mahasiswa Teknik Informatika ITERA
-- **Minat**: Artificial Intelligence & Machine Learning
+### 1. Layouting & Positioning
+* **Column:** Digunakan untuk menyusun elemen secara vertikal dari atas ke bawah (Profile Header -> Bio -> Card -> Button).
+* **Row:** Digunakan di dalam InfoItem untuk menyusun Icon dan teks secara horizontal (kiri ke kanan).
+* **Box:** Digunakan untuk menumpuk elemen (stacking), seperti background lingkaran di bawah foto profil.
+
+### 2. UI Components
+* **Text:** Menampilkan data statis seperti Nama, NIM, dan deskripsi bio.
+* **Button:** Tombol interaktif "Edit Profile" dengan custom shape rounded corner.
+* **Image:** Menampilkan foto profil menggunakan painterResource dengan ContentScale.Crop.
+* **Card:** Sebagai container informasi kontak dengan efek elevasi untuk memberikan kesan kedalaman.
+* **Icon:** Menggunakan Material Icons standar untuk Email, Call, dan Location.
+
+### 3. Modifiers
+* **Styling:** Menggunakan Modifier.clip(CircleShape) untuk foto profil melingkar.
+* **Background:** Implementasi Brush.verticalGradient untuk memberikan tampilan visual yang modern (Gradasi Biru).
+* **Spacing:** Penggunaan padding dan Spacer untuk menjaga jarak antar elemen sesuai prinsip desain UI yang rapi.
+* **Weight:** Menggunakan Modifier.weight(1f) untuk mengisi sisa ruang kosong sehingga tombol berada di posisi bawah.
+
+### 4. Reusable Composables
+Kode diorganisir ke dalam fungsi-fungsi modular yang dapat digunakan kembali:
+* **ProfileHeader()**: Mengelola tampilan foto profil dan nama.
+* **ProfileCard()**: Mengelola container informasi.
+* **InfoItem()**: Komponen generik untuk menampilkan baris informasi (Icon + Label + Value).
 
 ## Cara Menjalankan
-1. **Clone** repositori ini ke komputer lokal Anda.
-2. Buka proyek menggunakan **Android Studio (Ladybug atau versi terbaru)**.
-3. Tunggu hingga proses **Gradle Sync** selesai.
-4. Jalankan pada **Emulator** atau **Perangkat Fisik** Android.
-
+1. Clone repository ini.
+2. Buka project menggunakan **Android Studio**.
+3. Pastikan Gradle Sync berhasil.
+4. Jalankan pada emulator Android atau Desktop JVM.
